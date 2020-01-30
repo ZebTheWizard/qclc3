@@ -1,1 +1,59 @@
-//
+
+html, body {
+    // font-family: 'Poppins', sans-serif;
+
+    // font-family: 'Raleway', sans-serif;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+.text-fancy {
+    font-family: 'Poppins', sans-serif;
+}
+
+.text-water {
+    font-size: 10rem;
+    opacity: 0.1;
+    left: -3rem;
+    position: fixed;
+    top: -4rem;
+    z-index: -1;
+}
+
+.preload {
+    position: relative;
+    img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+    }
+}
+
+.carousel-overlay, .carousel-content {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+}
+
+.carousel-content {
+    z-index: 1;
+}
+
+.carousel-overlay {
+    background:#010a22;
+    opacity: 0.8;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.carousel-image {
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+}

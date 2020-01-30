@@ -12,5 +12,13 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('spa');
 });
+
+Route::get('/page/{file}', function ($file) {
+    return view("pages.$file");
+});
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
