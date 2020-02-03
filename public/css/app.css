@@ -39,6 +39,9 @@ body {
 
 .carousel-content {
   z-index: 1;
+  max-width: 768px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .carousel-overlay {

@@ -3,7 +3,7 @@
  * includes Vue and other libraries. It is a great starting point when
  * building robust, powerful web applications using Vue and Laravel.
  */
-import {Button, Dialog, Drawer, Carousel, CarouselItem, Menu, Col, Row, MenuItem} from 'element-ui';
+import {Button, Carousel, CarouselItem, Input, RadioGroup, RadioButton} from 'element-ui';
 
 
 require('./bootstrap');
@@ -13,14 +13,11 @@ window.SPA = require('./spa').default;
 window.Vue = require('vue');
 
 Vue.use(Button)
-    .use(Dialog)
-    .use(Drawer)
     .use(Carousel)
     .use(CarouselItem)
-    .use(Menu)
-    .use(MenuItem)
-    .use(Row)
-    .use(Col)
+    .use(Input)
+    .use(RadioGroup)
+    .use(RadioButton)
 
 
 window.spa = new SPA({
@@ -30,6 +27,7 @@ window.spa = new SPA({
     var res = Vue.compile(content)
     $data.vm = new Vue({
       data: this.data(),
+      // methods: this.methods,
       render: res.render,
       staticRenderFns: res.staticRenderFns
     })
@@ -45,7 +43,7 @@ window.spa = new SPA({
   },
   data () {
     return {
-      showSidebar: false
+      showSidebar: false,    
     }
   }
 })
@@ -65,8 +63,9 @@ document.addEventListener('touchmove', function (event) {
   if (event.scale !== 1) { event.preventDefault(); }
 }, { passive: false });
 
-Vue.component('carousel', require('./components/Carousel.vue').default);
-Vue.component('review', require('./components/Review.vue').default);
+Vue.component('qclc-carousel', require('./components/Carousel.vue').default);
+Vue.component('qclc-review', require('./components/Review.vue').default);
+Vue.component('qclc-contact', require('./components/Contact.vue').default);
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to

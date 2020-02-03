@@ -15,6 +15,10 @@ Route::get('/', function () {
     return view('spa');
 });
 
+Route::get('/files', function () {
+    return view('filemanager');
+});
+
 Route::get('/page/{file}', function ($file) {
     return view("pages.$file");
 });

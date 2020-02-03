@@ -8,7 +8,7 @@
 
 <div>
 
-  <carousel></carousel>
+  <qclc-carousel></qclc-carousel>
   <div>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nulla minima magni est alias repellendus ab explicabo, deserunt quos ullam exercitationem animi quibusdam sapiente aperiam nesciunt nam ex aut dolorum commodi.</div>
 </div>
 

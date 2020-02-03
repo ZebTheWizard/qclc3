@@ -1,7 +1,7 @@
 export default class SPA {
     constructor(o) {
         this.$mountPoint = o.el || "#app",
-        this.$methods = o.methods || {};
+        this.methods = o.methods || {};
         this.$beforeMount = o.beforeMount || function () {};
         this.$mounted = o.mounted || function () {};
         this.$ready = o.ready || function () {};

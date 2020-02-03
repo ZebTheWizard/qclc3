@@ -152,31 +152,31 @@
                     <h1 class="absolute text-water text-fancy">Reviews</h1>
                     <!-- <h1 class="absolute text-water text-fancy mt-16 ml-12">Stone</h1> -->
                     <div class="mt-8">
-                        <review 
+                        <qclc-review 
                             name="Gary"
                             text="This is the second year Hunter has been taking care of my lawn in Waverly, NY. He is very dependable, he does my lawn just as if I was doing it myself and I would recommend him to anyone who is in need of lawn care. He also did the snow removal for me in the Winter."
                             image="https://lh5.googleusercontent.com/-nQsmPU0PeZQ/AAAAAAAAAAI/AAAAAAAAAAA/oMCtqPkj9MM/s40-c-rp-mo-br100/photo.jpg"
-                        ></review>
-                        <review
+                        ></qclc-review>
+                        <qclc-review
                             name="Teri"
                             text="Hunter is impressive! He is honest, hardworking and dependable. He did a fantastic job on mulch and trimming shrubs at our home. He shows up on time, and takes pride in his work! When he finishes, everything is perfect!"
                             image="https://lh5.googleusercontent.com/-LJnuaIpgd0o/AAAAAAAAAAI/AAAAAAAAAAA/xBx6JynX4uY/s40-c-rp-mo-br100/photo.jpg"
-                        ></review>
-                        <review
+                        ></qclc-review>
+                        <qclc-review
                             name="Shawn"
                             text="Hunter does a great job. He is very hard working and is willing to go the extra mile to please us."
                             image="https://lh5.googleusercontent.com/-BmMQ9u6xMXo/AAAAAAAAAAI/AAAAAAAAAAA/i_ulE0woLcA/s40-c-rp-mo-br100/photo.jpg"
-                        ></review>
-                        <review
+                        ></qclc-review>
+                        <qclc-review
                             name="Sandra"
                             text="I highly recommend Quality Cuts Lawn Care!  Hunter has done an excellent job and is always reliable and punctual. This is a reasonably priced lawn care service with professional results."
                             image="https://lh4.googleusercontent.com/-Z4nZWeVOJb4/AAAAAAAAAAI/AAAAAAAAAAA/sFFWqKCI6bA/s40-c-rp-mo-br100/photo.jpg"
-                        ></review>
-                        <review
+                        ></qclc-review>
+                        <qclc-review
                             name="Burdett"
                             text="Hunter works hard and pays attention to detail. Our lawn and borders look immaculate. Strongly recommend for lawn care and landscaping."
                             image="https://lh3.googleusercontent.com/-YwwW_vtCvRI/AAAAAAAAAAI/AAAAAAAAAAA/kJvI8J4ZYuI/s40-c-rp-mo-br100/photo.jpg"
-                        ></review>
+                        ></qclc-review>
                     </div>
                     
                 </div>
